@@ -1,6 +1,8 @@
 body {
   background-color: #1c1c1c;
   display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -48,4 +50,15 @@ button:active {
 button span {
   position: relative;
   z-index: 1;
+}
+
+#citation {
+  font-family: "Impact", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #222;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 12px 24px rgba(255, 69, 0, 0.6), inset 0 0 10px 5px #ff4500;
 }
